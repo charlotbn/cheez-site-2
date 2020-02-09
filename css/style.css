@@ -1,0 +1,293 @@
+@charset "UTF-8";
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  font-family: 游ゴシック;
+}
+
+.header2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.header2-yellow {
+  color: #ffd61a;
+}
+
+.header2-black {
+  color: #222;
+}
+
+.header3 {
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.descblock {
+  font-size: 16px;
+  text-align: center;
+}
+
+.descblock .descblock_txt {
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: #ffd61a;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  vertical-align: middle;
+  width: 300px;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+nav .nav_item {
+  color: #222;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.mv {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../img/mainbg.png") center/cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.mvtxt {
+  color: #fff;
+  margin: auto;
+  text-align: center;
+}
+
+.mvtxt .mvtxt_header1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.mvtxt .mvtxt_header2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.about {
+  padding: 30px 0 40px;
+}
+
+.slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.course {
+  padding: 30px 0;
+}
+
+.courseblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.courseblock .courseblocktxtwrapper {
+  margin: auto;
+  width: 530px;
+}
+
+.courseblock .courseblocktxtwrapper-left {
+  margin-right: 0;
+}
+
+.courseblock .courseblocktxtwrapper-right {
+  margin-left: 0;
+}
+
+.courseblock .courseblock_img {
+  width: 50%;
+}
+
+.courseblock .courseblock_txt {
+  padding: 50px;
+}
+
+.courseblock .courseblock_header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.news {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.news_list {
+  margin: 0 auto 60px;
+}
+
+.news_item {
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+  text-align: left;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+  width: 270px;
+}
+
+.news_item:hover {
+  opacity: .7;
+}
+
+.news_img {
+  margin-bottom: 30px;
+}
+
+.news_postdate {
+  margin-bottom: 24px;
+}
+
+.news_link {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.access {
+  background: #fcfcfc;
+  padding: 60px 0;
+}
+
+.accesstable {
+  margin: auto;
+}
+
+.accesstable .accesstable_row {
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.accesstable .accesstable_th {
+  text-align: left;
+  width: 9em;
+}
+
+.map {
+  margin-bottom: 60px;
+}
+
+.contact {
+  margin-bottom: 80px;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact dl {
+  border-bottom: 1px solid #bfbfbf;
+  line-height: 1.5;
+  margin: auto;
+  text-align: left;
+  width: 700px;
+}
+
+.contact dl:first-child {
+  border-top: 1px solid #bfbfbf;
+}
+
+.contact dt,
+.contact dd {
+  display: table-cell;
+  padding: 8px;
+  vertical-align: middle;
+}
+
+.contact dt {
+  border-right: 1px solid #bfbfbf;
+  width: 240px;
+}
+
+.contact dd {
+  width: 400px;
+}
+
+.contact li {
+  margin-bottom: 8px;
+}
+
+.contact textarea {
+  display: block;
+}
+
+.contact .formblock {
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #707070;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.fade {
+  opacity: 0;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  margin-top: 50px;
+}
+
+.fade_on {
+  opacity: 1;
+  margin-top: 0;
+}
+/*# sourceMappingURL=style.css.map */
